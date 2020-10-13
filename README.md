@@ -1,7 +1,7 @@
 # Capstone-2
 
 Week 1 to 4
-* Download Dataset (APKs)
+* Download dataset (APKs)
 * Data Preprocessing
   * Decompile APKs to java source code, smali files and AndroidManifest.xml file.
   * Gather sensor usage info from the dataset. Identify the apps that use sensor data.
