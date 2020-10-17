@@ -10,6 +10,6 @@ Week 1 to 4
   * Calculate Jaccard Similarity and only keep the original-repackaged pairs that use sensor data. <br/> 
     **Pipeline: [Jaccard Similarity.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/Jaccard%20Similarity.ipynb)**
   * Extract uses-permisson (UP) and uses-features (UF) info from AndroidManifest.xml file. <br/> 
-    **Pipeline: [FindUP_UF_v2.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/FindUP_UF_v3.ipynb)**
+    **Pipeline: [FindUP_UF_v3.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/FindUP_UF_v3.ipynb)**
   
   
