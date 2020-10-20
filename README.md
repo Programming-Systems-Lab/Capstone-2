@@ -16,13 +16,13 @@ Week 5
 * Get authors of the apps. <br/>
   **Pipeline: [get_author_v1.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/get_author_v1.ipynb)**
 * Obtain all parts of data from each team member and combine separate files into one csv file. <br/>
-  **Data: ["data" folder](https://github.com/Programming-Systems-Lab/Capstone-2/tree/master/data)
-* Data Visualization
-  * Sensor Usage: pie chart, stacked bar chart, 100% stacked bar chart, histogram
-  * Jaccard Similarity: histogram
-  * Difference: ..
-  * Uses-features & Uses-permissions: ..
-  * Author: dot plot
+  **Data: ["data" folder](https://github.com/Programming-Systems-Lab/Capstone-2/tree/master/data)**
+* Data Visualization. <br/>
+  * Sensor Usage: pie chart, stacked bar chart, 100% stacked bar chart, histogram. <br/>
+  * Jaccard Similarity: histogram. <br/>
+  * Difference: .. <br/>
+  * Uses-features & Uses-permissions: .. <br/>
+  * Author: dot plot. <br/>
  
 Week 6
 * Analyze data. <br/>
