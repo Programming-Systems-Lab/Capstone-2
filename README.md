@@ -12,4 +12,14 @@ Week 1 to 4
   * Extract uses-permisson (UP) and uses-features (UF) info from AndroidManifest.xml file. <br/> 
     **Pipeline: [FindUP_UF_v4.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/FindUP_UF_v4.ipynb)**
   
-  
+Week 5
+* Get authors of the apps. <br/>
+  **Pipeline: [get_author_v1.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/get_author_v1.ipynb)**
+* Obtain all parts of data from each team member and combine separate files into one csv file.
+  **Data: ["data" folder](https://github.com/Programming-Systems-Lab/Capstone-2/tree/master/data)
+* Data Visualization
+  * Sensor Usage: pie chart, stacked bar chart, 100% stacked bar chart, histogram
+  * Jaccard Similarity: histogram
+  * Difference: ..
+  * Uses-features & Uses-permissions: ..
+  * Author: dot plot
