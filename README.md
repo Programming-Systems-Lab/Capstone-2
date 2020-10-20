@@ -15,7 +15,7 @@ Week 1 to 4
 Week 5
 * Get authors of the apps. <br/>
   **Pipeline: [get_author_v1.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/get_author_v1.ipynb)**
-* Obtain all parts of data from each team member and combine separate files into one csv file.
+* Obtain all parts of data from each team member and combine separate files into one csv file. <br/>
   **Data: ["data" folder](https://github.com/Programming-Systems-Lab/Capstone-2/tree/master/data)
 * Data Visualization
   * Sensor Usage: pie chart, stacked bar chart, 100% stacked bar chart, histogram
@@ -23,3 +23,7 @@ Week 5
   * Difference: ..
   * Uses-features & Uses-permissions: ..
   * Author: dot plot
+ 
+Week 6
+* Analyze data. <br/>
+* Finish first progress report. <br/>
