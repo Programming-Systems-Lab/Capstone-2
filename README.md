@@ -12,13 +12,14 @@ Contribution of our work is three-fold:
 * We further investigate the relationship between the repackaged apps using sensors and the authors. Inparticular, we study the authors’ generated repackaged apps and their sensor usage style
 
 ### Workflow
-![](https://github.com/Programming-Systems-Lab/Capstone-2/HighLevel.png)
+![](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/HighLevel.png)
 
 
 ### Progress (continuously updating)
 Week 1 to 4
 * Download dataset (APKs)
 * Data Preprocessing
+![decompilation](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Decompilation.png =250x250)
   * Decompile APKs to java source code, smali files and AndroidManifest.xml file. <br/>
     **Pipeline: [Decompile_apk_v5.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/Decompile_apk_v5.ipynb)**
   * Gather sensor usage info from the dataset. Identify the apps that use sensor data. <br/> 
