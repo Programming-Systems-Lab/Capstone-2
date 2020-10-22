@@ -11,7 +11,8 @@ Contribution of our work is three-fold:
 * We find evidence that the repackaged evasive malware utilize more senors than the original application;
 * We further investigate the relationship between the repackaged apps using sensors and the authors. Inparticular, we study the authors’ generated repackaged apps and their sensor usage style
 
-### Methods
+### Workflow
+![](https://github.com/Programming-Systems-Lab/Capstone-2/HighLevel.png)
 
 
 ### Progress (continuously updating)
