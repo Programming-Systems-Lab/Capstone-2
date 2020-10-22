@@ -9,7 +9,7 @@ Presently, various approaches have been developed to detect repackaged apps, ran
 Contribution of our work is three-fold:
 * We build a tool to extract the sensors actually used by an app, as opposed to the sensors mentioned in the Android manifest file but never used;
 * We find evidence that the repackaged evasive malware utilize more senors than the original application;
-* We further investigate the relationship between the repackaged apps using sensors and the authors. Inparticular, we study the authors’ generated repackaged apps and their sensor usage style
+* We further investigate the relationship between the repackaged apps using sensors and the authors. In particular, we study the authors’ generated repackaged apps and their sensor usage style
 
 ### Workflow
 ![](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/HighLevel.png)
