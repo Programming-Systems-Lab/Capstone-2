@@ -16,7 +16,7 @@ Contribution of our work is three-fold:
 
 
 ### Progress (continuously updating)
-Week 1 to 4
+**Week 1 to 4**
 * Download dataset (APKs)
 * Data Preprocessing
 ![decompilation](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Decompilation.png)
@@ -29,7 +29,7 @@ Week 1 to 4
   * Extract uses-permisson (UP) and uses-features (UF) info from AndroidManifest.xml file. <br/> 
     **Pipeline: [FindUP_UF_v4.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/FindUP_UF_v4.ipynb)**
   
-Week 5
+**Week 5**
 * Get authors of the apps. <br/>
   **Pipeline: [get_author_v1.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/get_author_v1.ipynb)**
 * Obtain all parts of data from each team member and combine separate files into one csv file. <br/>
@@ -41,6 +41,6 @@ Week 5
   * Uses-features & Uses-permissions: .. <br/>
   * Author: dot plot. <br/>
  
-Week 6
+**Week 6**
 * Analyze data. <br/>
 * Finish first progress report. <br/>
