@@ -19,7 +19,7 @@ Contribution of our work is three-fold:
 Week 1 to 4
 * Download dataset (APKs)
 * Data Preprocessing
-![decompilation](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Decompilation.png =250x250)
+![decompilation](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Decompilation.png)
   * Decompile APKs to java source code, smali files and AndroidManifest.xml file. <br/>
     **Pipeline: [Decompile_apk_v5.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/Decompile_apk_v5.ipynb)**
   * Gather sensor usage info from the dataset. Identify the apps that use sensor data. <br/> 
