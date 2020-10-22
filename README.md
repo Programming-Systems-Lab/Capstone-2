@@ -1,5 +1,20 @@
-# Capstone-2
+# Sensor-Based Repackaged Malware Detection
 
+### Overview
+Android is one of the most popular operating systems (OS) for mobile environment in the world. Because of its popularity, Android is also the most targeted mobile OS by malware. Researchers have found that most of the Android malware uses repackaged apps as their preferred means to propagate into users’ devices. Therefore, repackaged apps not only infringe the copyright on the original apps but also threaten the health of the Android ecosystem. Thus, it is imperative to detect repackaged apps in various app markets so as to stop the spread of malware. Since adversaries can easily repackage malicious code into various benign apps, the detection of malware becomes more and more difficult.  
+
+Presently, various approaches have been developed to detect repackaged apps, ranging from similarity computation to runtime monitoring, and to supervised or unsupervised learning. In this project, we want to explore if sensors used by apps can give some insight into malware detection. We study a publicly available dataset of repackaged apps available at [AndroZoo](https://androzoo.uni.lu/api_doc). There are several steps involved in the study, beginning with an exploratory analysis of repackaged apps that utilize innocuous sensors of the phone. Currently, we are working on this step, finding the difference between the sensors used by original apps and repackaged apps, and exploring other potential features that might be useful for the detection of repackaged applications. During the second half of this semester, we will 1) identify if the repackaged app is malware or not; 2)build a classifier to detect the repackaged malware if there is some pattern found during the exploratoryanalysis; 3) achieve other additional goals.
+
+### Contribution
+Contribution of our work is three-fold:
+* We build a tool to extract the sensors actually used by an app, as opposed to the sensors mentioned in the Android manifest file but never used;
+* We find evidence that the repackaged evasive malware utilize more senors than the original application;
+* We further investigate the relationship between the repackaged apps using sensors and the authors. Inparticular, we study the authors’ generated repackaged apps and their sensor usage style
+
+### Methods
+
+
+### Progress (continuously updating)
 Week 1 to 4
 * Download dataset (APKs)
 * Data Preprocessing
