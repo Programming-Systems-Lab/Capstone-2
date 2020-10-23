@@ -1,4 +1,5 @@
 # Sensor-Based Repackaged Malware Detection
+![visual](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/visual.png)
 
 ### Overview
 Android is one of the most popular operating systems (OS) for mobile environment in the world. Because of its popularity, Android is also the most targeted mobile OS by malware. Researchers have found that most of the Android malware uses repackaged apps as their preferred means to propagate into users’ devices. Therefore, repackaged apps not only infringe the copyright on the original apps but also threaten the health of the Android ecosystem. Thus, it is imperative to detect repackaged apps in various app markets so as to stop the spread of malware. Since adversaries can easily repackage malicious code into various benign apps, the detection of malware becomes more and more difficult.  
@@ -11,12 +12,9 @@ Contribution of our work is three-fold:
 * We find evidence that the repackaged evasive malware utilize more senors than the original application;
 * We further investigate the relationship between the repackaged apps using sensors and the authors. In particular, we study the authors’ generated repackaged apps and their sensor usage style
 
-### Workflow
-![](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/HighLevel.png)
-
 
 ### Progress (continuously updating)
-![decompilation](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Overview_Diagram.png)
+
 **Week 1 to 4**
 * Download dataset (APKs)
 * Data Preprocessing
