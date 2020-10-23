@@ -18,6 +18,7 @@ The following packages are required to decompile APKs and extract java source co
 * [dex2jar](https://github.com/pxb1988/dex2jar): download and extract dex2jar to the root folder where the folder of APKs is stored. <br/>
 * [jd-cli](https://github.com/kwart/jd-cli): download the command line Java decimpiler jd-cli to the root folder. <br/>
 * [apktool](https://github.com/kwart/jd-cli): download and install the latest version of apktool. <br/>
+
 Now you are good to go! The decompilation pipeline is in [Decompile_apk_v5.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/Decompile_apk_v5.ipynb)
 
 
