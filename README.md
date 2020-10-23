@@ -37,8 +37,8 @@ Contribution of our work is three-fold:
 * Data Visualization. <br/>
   * Sensor Usage: pie chart, stacked bar chart, 100% stacked bar chart, histogram. <br/>
   * Jaccard Similarity: histogram. <br/>
-  * Difference: .. <br/>
-  * Uses-features & Uses-permissions: .. <br/>
+  * Difference: visna <br/>
+  * Uses-features & Uses-permissions: stacked bar chart <br/>
   * Author: dot plot. <br/>
  
 **Week 6**
