@@ -13,6 +13,12 @@ Contribution of our work is three-fold:
 * We further investigate the relationship between the repackaged apps using sensors and the authors. In particular, we study the authors’ generated repackaged apps and their sensor usage style
 
 
+### Required packages
+[dex2jar](https://github.com/pxb1988/dex2jar): download and extract dex2jar to the root folder where the folder of APKs is stored.<br/>
+[jd-cli](https://github.com/kwart/jd-cli): download the command line Java decimpiler jd-cli to the root folder.<br/>
+[apktool](https://github.com/kwart/jd-cli): download and install the latest version of apktool.<br/>
+
+
 ### Progress (continuously updating)
 
 **Week 1 to 4**
