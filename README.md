@@ -1,6 +1,30 @@
-# Capstone-2
+# Sensor-Based Repackaged Malware Detection
+![visual](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/visual2.png)
 
-Week 1 to 4
+### Overview
+Android is one of the most popular operating systems (OS) for mobile environment in the world. Because of its popularity, Android is also the most targeted mobile OS by malware. Researchers have found that most of the Android malware uses repackaged apps as their preferred means to propagate into users’ devices. Therefore, repackaged apps not only infringe the copyright on the original apps but also threaten the health of the Android ecosystem. Thus, it is imperative to detect repackaged apps in various app markets so as to stop the spread of malware. Since adversaries can easily repackage malicious code into various benign apps, the detection of malware becomes more and more difficult.  
+
+Presently, various approaches have been developed to detect repackaged apps, ranging from similarity computation to runtime monitoring, and to supervised or unsupervised learning. In this project, we want to explore if sensors used by apps can give some insight into malware detection. We study a publicly available dataset of repackaged apps available at [AndroZoo](https://androzoo.uni.lu/api_doc). There are several steps involved in the study, beginning with an exploratory analysis of repackaged apps that utilize innocuous sensors of the phone. Currently, we are working on this step, finding the difference between the sensors used by original apps and repackaged apps, and exploring other potential features that might be useful for the detection of repackaged applications. During the second half of this semester, we will 1) identify if the repackaged app is malware or not; 2)build a classifier to detect the repackaged malware if there is some pattern found during the exploratoryanalysis; 3) achieve other additional goals.
+
+### Contribution
+Contribution of our work is three-fold:
+* We build a tool to extract the sensors actually used by an app, as opposed to the sensors mentioned in the Android manifest file but never used;
+* We find evidence that the repackaged evasive malware utilize more senors than the original application;
+* We further investigate the relationship between the repackaged apps using sensors and the authors. In particular, we study the authors’ generated repackaged apps and their sensor usage style
+
+
+### Required packages
+The following packages are required to decompile APKs and extract Java source code and xml files: <br/>
+* [dex2jar](https://github.com/pxb1988/dex2jar): download and extract dex2jar to the root folder where the folder of APKs is stored. <br/>
+* [jd-cli](https://github.com/kwart/jd-cli): download the command line Java decompiler jd-cli to the root folder. <br/>
+* [apktool](https://github.com/kwart/jd-cli): download and install the latest version of apktool. <br/>
+
+Now you are good to go! The decompilation pipeline is in [Decompile_apk_v5.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/Decompile_apk_v5.ipynb)
+
+
+### Progress (continuously updating)
+
+**Week 1 to 4**
 * Download dataset (APKs)
 * Data Preprocessing
   * Decompile APKs to java source code, smali files and AndroidManifest.xml file. <br/>
@@ -12,7 +36,7 @@ Week 1 to 4
   * Extract uses-permisson (UP) and uses-features (UF) info from AndroidManifest.xml file. <br/> 
     **Pipeline: [FindUP_UF_v4.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/FindUP_UF_v4.ipynb)**
   
-Week 5
+**Week 5**
 * Get authors of the apps. <br/>
   **Pipeline: [get_author_v1.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/get_author_v1.ipynb)**
 * Obtain all parts of data from each team member and combine separate files into one csv file. <br/>
@@ -20,10 +44,10 @@ Week 5
 * Data Visualization. <br/>
   * Sensor Usage: pie chart, stacked bar chart, 100% stacked bar chart, histogram. <br/>
   * Jaccard Similarity: histogram. <br/>
-  * Difference: .. <br/>
-  * Uses-features & Uses-permissions: .. <br/>
+  * Difference: visna <br/>
+  * Uses-features & Uses-permissions: stacked bar chart <br/>
   * Author: dot plot. <br/>
  
-Week 6
+**Week 6**
 * Analyze data. <br/>
 * Finish first progress report. <br/>
