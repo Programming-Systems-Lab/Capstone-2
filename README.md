@@ -51,3 +51,19 @@ Now you are good to go! The decompilation pipeline is in [Decompile_apk_v5.ipynb
 **Week 6**
 * Analyze data. <br/>
 * Finish first progress report. <br/>
+
+
+**Week 7**
+* EDA on AndroZoo dataset (malware & benign apps). <br/>
+* Do feature exploration. <br/>
+* Model tuning, training and testing (LR, SVM, KNN, DNN). <br/>
+  * Features <br/>
+    * With sensor features <br/>
+    * Without sensor features <br/>
+  * Test set <br/>
+    * The test set splitted from Training_Dataset.csv <br/>
+    * The test set only containing repackaged benign apps <br/>
+    * COVID repackaged malware dataset <br/>
+* Experiments on the threshold (currently, 0: benign, >0: malware) <br/>
+* Finish BigData2020 Poster <br/>
+
