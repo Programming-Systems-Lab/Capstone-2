@@ -52,18 +52,32 @@ Now you are good to go! The decompilation pipeline is in [Decompile_apk_v5.ipynb
 * Analyze data. <br/>
 * Finish first progress report. <br/>
 
-
 **Week 7**
 * EDA on AndroZoo dataset (malware & benign apps). <br/>
 * Do feature exploration. <br/>
-* Model tuning, training and testing (LR, SVM, KNN, DNN). <br/>
+* Model tuning, training and testing (LR, SVM, KNN, XGBoost, DNN). <br/>
   * Features <br/>
     * With sensor features <br/>
     * Without sensor features <br/>
   * Test set <br/>
     * The test set splitted from Training_Dataset.csv <br/>
     * The test set only containing repackaged benign apps <br/>
-    * COVID repackaged malware dataset <br/>
-* Experiments on the threshold (currently, 0: benign, >0: malware) <br/>
+    * COVID dataset <br/>
+* Experiments on the threshold (currently, 0: benign, >=2: malware) <br/>
 * Finish BigData2020 Poster <br/>
 
+**Week 8**
+* Finish BigData2020 1-page paper <br/>
+* EDA on AndroZoo dataset (malware & benign apps) <br/>
+* Feature exploration <br/>
+
+**Week 9**
+* Finish BigData2020 3-page paper <br/>
+
+**Week 10**
+* Extract the hashes of the libraries used by benign apps and save them in a list; Extract the hashes of the libraries used by malware; Check if the hashes of a malware are all in the list. If yes, then the feature `if_the_app_using_suspicious_libs` should be 0; if not, the feature should be 1  <br/>
+
+
+**Week 11**
+* Run models for different thresholds  <br/>
+* Finish the second progress report  <br/>
