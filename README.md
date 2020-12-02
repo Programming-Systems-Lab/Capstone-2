@@ -85,6 +85,6 @@ Now you are good to go! The decompilation pipeline is in [Decompile_apk_v5.ipynb
 **Week 12**
 * Build code2vec pipeline <br/>
   * Put all the decompiled file at the same level as this project, inside a folder named *decompile*
-  * Generate java file paths of interest for apps: [Get Java Files.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/Get%20Java%20Files.ipynb)<br />
+  * Generate a JSON file containing the java file paths of interest for apps: [Get Java Files.ipynb](https://github.com/Programming-Systems-Lab/Capstone-2/blob/master/Data%20Preprocessing/Get%20Java%20Files.ipynb)<br /> This file can be downlaoded from our google drive and stored in [Capstone-2/Data Preprocessing](https://github.com/Programming-Systems-Lab/Capstone-2/tree/master/Data%20Preprocessing)
   * Go to the directory of [Capstone-2/Data Preprocessing/code2vec](https://github.com/Programming-Systems-Lab/Capstone-2/tree/master/Data%20Preprocessing/code2vec), follow the instructions to get the vector representations.
 
