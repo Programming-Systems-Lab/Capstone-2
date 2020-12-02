@@ -81,3 +81,11 @@ Now you are good to go! The decompilation pipeline is in [Decompile_apk_v5.ipynb
 **Week 11**
 * Run models for different thresholds  <br/>
 * Finish the second progress report  <br/>
+
+**Week 12**
+* Build code2vec pipeline *
+
+```
+x = 1
+```
+
