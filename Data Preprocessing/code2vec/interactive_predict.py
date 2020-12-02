@@ -38,13 +38,10 @@ class InteractivePredictor:
         with open('../javaPahts.json') as f:
             data = json.load(f)
         print('Starting interactive prediction...')
-        counter = 0
+       
         start_time = time.time()
         for app in data:
             appVectors = []
-            if counter>1:
-                break
-            counter +=1
             for javaPath in data[app]:
                 #print(
                 #    'Modify the file: "%s" and press any key when ready, or "q" / "quit" / "exit" to exit' % input_filename)
@@ -52,13 +49,10 @@ class InteractivePredictor:
                 #if user_input.lower() in self.exit_keywords:
                 #    print('Exiting...')
                 #    return
-                inputfile = 'input.java'
                 input_filename = os.path.join("..",javaPath)
-                print(input_filename)
                 try:
-                    predict_lines, hash_to_string_dict = self.path_extractor.extract_paths(inputfile)
+                    predict_lines, hash_to_string_dict = self.path_extractor.extract_paths(input_filename)
                 except ValueError as e:
-                    print('bad bad')
                     print(e)
                     continue
                 raw_prediction_results = self.model.predict(predict_lines)
@@ -78,11 +72,11 @@ class InteractivePredictor:
                         #print('%f\tcontext: %s,%s,%s' % (
                         #attention_obj['score'], attention_obj['token1'], attention_obj['path'], attention_obj['token2']))
                     if self.config.EXPORT_CODE_VECTORS:
-                        appVectors.append( raw_prediction.code_vector)
-                        print('Code vector:')
-                        print(' '.join(map(str, raw_prediction.code_vector)))
+                        appVectors.append( [method_prediction.original_name]+[javaPath]+list(raw_prediction.code_vector))
+                        #print('Code vector:')
+                        #print(' '.join(map(str, raw_prediction.code_vector)))
                         #print(type(raw_prediction.code_vector))
                 #if count ==1:
                     #print("perfect!")
             pd.DataFrame(appVectors).to_csv('csv/'+app+'.csv',index=False)
-        print("--- %s seconds ---" % (time.time() - start_time))
+            print("--- %s seconds ---" % (time.time() - start_time))
